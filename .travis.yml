@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: vYqLgIM+IrxyvWbnxE/PdtA9PFcNiMYR88u7RnOdTwJVWv3YsUdlMu0jOdvey6I5TLNjrVE3pV1trHhrCUJ/rpLbFmqoIVNNPXLDY/AVkIEVesZC9rZq0khOMlocwYOHV1fPMJ6w9d6bO0U+r/DyuJsDeD/wAIhsbKI3EQ9Vd9C8g0M8FSJMLb/DQnMa2zygMKcLDVI0uwln+WcsjyZb3GcPupufJEHaBP4ohLWvXChM6q10H7dQwUza65Cv/xrGk+hJPliQwSGB1YMbDZXe2oYfKDQPbRHAx16/32WQ5Nrnmgau6Ou0JOczpKVV+ARM3n9GjyK3x4GKGQ4tAUzIkbU7ooQ9n1HTEOExfrpkOyKCAQclQtA+CLMxxvlnrI8P8uUV/bf0sJ5eiAQsS30pm+gjNwTQKX2MyaDCAqxPOKXyokgr30PyDwDHa+iJqCpeYrlgc88iVrV+PVWVMNpX/g6LzEqI5nSzmwzO8JoNpiDblpuVlhkNrSDa7ORcY1nTSJG5Bdmkvu7U1tDaOrTLMFGoH4og/S+OeeJM9s2eCB3Yd/Fd62voc52qOFjRx4JCdih4WAIypLKTD2KMIIa1NSvNlJ+rZMWRmqadES5iSfsZ7KHqOS9vn2RkObkREFPB1b6m+3WydqmfGzMgji2np6IQyEkOjfkCZq0WqkBIw+k=
+  app: Blog-Post-Challenge
+  on:
+    repo: lavanya-sethuraman/Blog-Post-Challenge
